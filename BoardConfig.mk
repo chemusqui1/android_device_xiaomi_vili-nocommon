@@ -209,4 +209,7 @@ TARGET_SCREEN_DENSITY := 420
 # Security patch level
 VENDOR_SECURITY_PATCH := 2022-11-01
 
+# Sepolicy
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
 -include vendor/xiaomi/vili/BoardConfigVendor.mk
