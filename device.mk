@@ -159,6 +159,31 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.class_main.sh \
+    init.crda.sh \
+    init.kernel.post_boot-lahaina.sh \
+    init.kernel.post_boot.sh \
+    init.mdm.sh \
+    init.mi.usb.sh \
+    init.qcom.class_core.sh \
+    init.qcom.coex.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sdio.sh \
+    init.qcom.sensors.sh \
+    init.qcom.sh \
+    init.qcom.usb.sh \
+    init.qti.chg_policy.sh \
+    init.qti.display_boot.sh \
+    init.qti.kernel.debug-lahaina.sh \
+    init.qti.kernel.debug.sh \
+    init.qti.kernel.sh \
+    init.qti.media.sh \
+    init.qti.qcv.sh \
+    mishow.sh \
+    qca6234-service.sh \
+    vendor_modprobe.sh \
     init.batterysecret.rc \
     init.mi_thermald.rc \
     init.qcom.factory.rc \
